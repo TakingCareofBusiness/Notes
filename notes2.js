@@ -17,12 +17,12 @@ const movies = [
   },
   {
     title: "Lion King",
-    release: 1977,
+    release: 1991,
     actors: ["Mark", "Harrison", "Carrie"],
   },
 ];
 movies.forEach((movie) => console.log(movie.title));
-//filter, to get a newe array of movies that match criteria\
+//filter, to get a new array of movies that match criteria\
 //array name DOT Array command then arrow function that accepts singular element of array
 const newMovies = movies.filter((movie) => movie.release > 1990);
 console.log(newMovies);
